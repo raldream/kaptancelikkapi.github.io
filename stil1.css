@@ -1,0 +1,84 @@
+body{
+ background-color: #bfbdbd;
+}
+#container{
+    width: 892px;
+    height: auto;
+    margin: auto;
+}
+header{
+width: 888px;
+height: 280px;
+margin-bottom: 5px;
+}
+nav{
+    width: 900px;
+    height: 50px;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+ text-decoration: none;
+ padding: 10px;
+ width: 200;
+ display: block;
+ text-align: center;
+ color: #77787c;
+ font-weight: bold;
+ border-left: 1px solid #77787c;
+}
+nav ul li a:hover{
+    color: #a01d09;
+    font-style: italic;
+    border-left: 1px solid #a01d09;
+}
+section{
+    width: 892px;
+    height: 600px;
+    padding-top: 5px;
+    /*background-color: orange;*/
+}
+article{
+    font-size: 12px;
+    line-height: 16px;
+    /*background-color: #FFFFCC;*/
+    text-align: justify;
+    padding: 5px;
+    width: 882px;
+    height: auto;
+    margin: auto;
+}
+footer{
+    width: 892px;
+    height: 17px;
+    background-color: rgb(80, 80, 80);
+    padding-top: 5px;
+}
+article img{
+    margin: auto;
+}
+article h1{
+    text-align: center;
+}
+article p{
+    text-align: center;
+}
+.resim{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.yazi{
+    text-align: justify;
+}
+.anasayfares{
+    width: 880px;
+}
